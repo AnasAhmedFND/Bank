@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank calculate</title>
+    <link rel="stylesheet" href="bank-style.css">
+</head>
+<body>
+    
+<div class="card" id="login-card">
+    <h1 class="login">Login FIZ BANK</h1><br><br><br>    
+    <input id="acc" class="input1" type="text" placeholder="Enter Your Account Number"><br><br>
+    <input id="pass" class="input2" type="password" placeholder="Enter Your password"><br><br>
+    <button class="but" id="button">submit</button>
+
+</div>
+
+<div class="main-page-balance" id="main-page">
+
+    <div class="balance">
+        <h1 id="total-balance" class="bh">Your Balance is : <span id="totalspan">00</span></h1>
+    </div>
+
+    <div class="main-bot">
+        <div class="left-fild ">
+            <h1 class="deposit">Deposit: <span id="depositspan">00</span></h1>
+
+            <input id="deposit-input" class="deinput" type="text" placeholder="">
+            <div class="add-but">
+                <button id="depositbut" class="dbut">Add Mony</button>
+            </div>
+        </div>
+    
+        <div class="left-fild ">
+            <h1 class="deposit" id="withdrow_head">Withdrow: <span id="withdrow_span"> 00</span></h1>
+            <input class="deinput" id="withdrow_input" type="text" placeholder="">
+            <div class="add-but">
+                <button class="dbut" id="withdrow_but">Withdrow</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

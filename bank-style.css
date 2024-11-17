@@ -1,0 +1,132 @@
+*{
+    background-color: aqua;
+}
+.card{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-color: white;
+}
+.login{
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
+
+}
+.input1{
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 3px 4px 10px black;
+    width: 80%;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+.input2{
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 3px 4px 10px black;
+    width: 80%;
+    margin-left: 5%;
+    border-radius: 10px;
+
+}
+
+.but{
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 3px 4px 10px black;
+    width: 30%;
+    margin-left: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+
+}
+.balance{
+    width: 400px;
+    height: 160px;
+    border: 1px solid red;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    color: white;    
+    box-shadow: 5px 6px 10px black; 
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.bh{
+    background-color: blue;
+}
+
+.left-fild{
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+    background-color: blueviolet;
+    box-shadow: 4px 5px 10px black;
+    border-radius: 10px;
+}
+
+.right-fild{
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+    background-color: blueviolet;
+    box-shadow: 4px 5px 10px black;
+
+}
+
+.main-bot{
+    display: flex;
+    justify-content: center;
+   margin-top: 60px;
+   gap: 200px;
+}
+
+.deposit{
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    
+}
+.deinput{
+    background-color: rgb(244, 243, 248);
+    width: 90% ;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.dbut{
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: yellow;
+    font-size: 20px;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+.add-but{
+    text-align: center;
+    background-color: blueviolet;
+}
+#totalspan{
+    background-color: blue;
+}
+
+#depositspan{
+    background-color: blueviolet;
+}
+#withdrow_span{
+    background-color: blueviolet;
+}
